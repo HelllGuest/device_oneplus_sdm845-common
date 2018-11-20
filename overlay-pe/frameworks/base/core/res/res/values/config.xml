@@ -127,6 +127,10 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">6</integer>
    
-   <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. --> 
-   <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. --> 
+    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+
+    <!-- Specify custom blanking delay of the display -->
+    <integer name="config_screen_off_delay">0</integer>
+
 </resources>
