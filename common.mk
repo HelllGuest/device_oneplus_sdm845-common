@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common 
+    ims-ext-common
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -115,10 +115,6 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     power.qcom:64
-
-# QTI
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
 # tri-state-key
 PRODUCT_PACKAGES += \
