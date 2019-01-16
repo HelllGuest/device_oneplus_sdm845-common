@@ -11,10 +11,9 @@
     "remote": "github"
   },
   {
-    "repository": "LineageOS/android_kernel_oneplus_sdm845",
+    "repository": "kernel_oneplus_sdm845",
     "target_path": "kernel/oneplus/sdm845",
-    "branch": "lineage-16.0",
-    "remote": "github"
+    "remote": "pixel"
   },
   { 
     "repository": "packages_apps_WallpapersBReel2018",
