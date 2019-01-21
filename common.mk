@@ -104,8 +104,9 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    NfcNci \
     Tag \
+    android.hardware.nfc@1.1 \
+    android.hardware.nfc@1.0 \
     com.android.nfc_extras
 
 # Pocket mode
